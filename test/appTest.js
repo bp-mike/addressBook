@@ -4,6 +4,6 @@ const app = require('../scripts/app')
 describe('App', funtion(){
  let displayData = app;
  it("check if display works", funtion(){
-    assert.isNumber(displayData(24), Number);
- })
+
+})
 })
