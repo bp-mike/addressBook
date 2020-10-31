@@ -1,0 +1,63 @@
+html, body {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+body h1 {
+  margin: 0;
+}
+
+body th {
+  color: #92CF48;
+  border: 1px solid #EAEDF3;
+  padding: 10px 60px;
+}
+
+body td {
+  border: 1px solid #EAEDF3;
+  padding: 0px 5px;
+}
+
+body thead {
+  background: #302043;
+  line-height: 20px;
+}
+
+body header, body footer {
+  background: #282639;
+  padding: 0 20px;
+  color: #92CF48;
+  line-height: 100px;
+}
+
+body footer {
+  line-height: 40px;
+  margin-top: 0px;
+}
+
+body #new-contact, body #contact-display {
+  padding: 20px;
+}
+
+body #new-contact {
+  background: #EAEDF3;
+}
+
+body div {
+  margin-bottom: 10px;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

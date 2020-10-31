@@ -1,0 +1,65 @@
+$purpleLight : #302043;
+$purpleDark : #282639;
+$greenNeon : #92CF48;
+$greyLight : #F4F6F9;
+$greyDark : #EAEDF3;
+$greyDarkFont: #6C7882;
+$greyLightFont: #bbc1c0;
+$greyLightFont2: #a5adbd;
+$orange: #f48320;
+$purple: #744bce;
+$mainColor: #505962;
+$mainColor2: #1ebba3;
+$mainColor2Dark: #189582;
+
+html, body{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px auto;
+    max-width: 1000px;
+    h1{
+        margin: 0;
+    }
+    th {
+     color: $greenNeon;
+     border: 1px solid $greyDark;
+     padding: 10px 60px;   
+    }
+    td{
+        border: 1px solid $greyDark;
+        padding: 0px 5px;
+    }
+    thead{
+        background: $purpleLight;
+        line-height: 20px;
+    }
+    header, footer{
+        background:$purpleDark;
+        padding: 0 20px;
+        color: $greenNeon;
+        line-height: 100px;
+    }
+    footer{
+        line-height: 40px;
+        margin-top: 0px;
+    }
+    #new-contact, #contact-display{
+        padding: 20px;
+    }
+    #new-contact{
+        background: $greyDark;
+    }
+    div{
+        margin-bottom: 10px;
+    }
+    ul{
+        list-style-type:none;
+    }
+    label{
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+}
